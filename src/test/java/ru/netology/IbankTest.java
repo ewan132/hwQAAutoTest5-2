@@ -8,6 +8,8 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.restassured.RestAssured.given;
 import static ru.netology.DataGenerede.Registration.getRegistredUser;
 
+
+
 public class IbankTest {
 
     @BeforeEach
