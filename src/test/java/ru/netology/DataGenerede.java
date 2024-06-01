@@ -9,6 +9,7 @@ import io.restassured.specification.RequestSpecification;
 import lombok.Value;
 
 import java.util.Locale;
+import java.util.Random;
 
 import static io.restassured.RestAssured.given;
 
@@ -42,6 +43,7 @@ public class DataGenerede {
 
 
 
+
     public static String getLogin(){
         return faker.name().username();
     }
@@ -50,10 +52,11 @@ public class DataGenerede {
         return faker.internet().password();
     }
 
+
     public static class  Registration {
         private Registration(){
              }
-             public static RegistrationDto getUser(String locale){
+             public static RegistrationDto getUser(String status){
             return new RegistrationDto(getLogin(), getPassword(), status);
              }
          public static RegistrationDto getRegistredUser (String status){

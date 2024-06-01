@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="32b5bd47-9491-4ab2-8700-15e0d0da9b3b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/DataGenerede.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/DataGenerede.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/IbankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/IbankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,27 +38,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.IbankTest.shouldReturnRegistrationUser (1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.IbankTest.shouldReturnRegistrationUser.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/IDEA/Netology/hwQAAutoTest5-2/src/test/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.IbankTest.executor": "Run",
+    "Gradle.IbankTest.shouldGetReturnRegistrationUser.executor": "Run",
+    "Gradle.IbankTest.shouldReturnBlockedUser.executor": "Run",
+    "Gradle.IbankTest.shouldReturnInvalidLogin.executor": "Run",
+    "Gradle.IbankTest.shouldReturnInvalidPassword.executor": "Run",
+    "Gradle.IbankTest.shouldReturnRegistrationUser (1).executor": "Run",
+    "Gradle.IbankTest.shouldReturnRegistrationUser.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/IDEA/Netology/hwQAAutoTest5-2/src/test/java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.IbankTest.shouldReturnRegistrationUser (1)">
-    <configuration name="IbankTest.shouldReturnRegistrationUser (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.IbankTest.shouldGetReturnRegistrationUser">
+    <configuration name="IbankTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -69,7 +76,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.netology.IbankTest.shouldReturnRegistrationUser&quot;" />
+            <option value="&quot;ru.netology.IbankTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -80,7 +87,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="IbankTest.shouldReturnRegistrationUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IbankTest.shouldGetReturnRegistrationUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -93,7 +100,79 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;IbankTest.shouldReturnRegistrationUser&quot;" />
+            <option value="&quot;ru.netology.IbankTest.shouldGetReturnRegistrationUser&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="IbankTest.shouldReturnBlockedUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.IbankTest.shouldReturnBlockedUser&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="IbankTest.shouldReturnInvalidLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.IbankTest.shouldReturnInvalidLogin&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="IbankTest.shouldReturnInvalidPassword" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.netology.IbankTest.shouldReturnInvalidPassword&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -106,8 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.IbankTest.shouldReturnRegistrationUser (1)" />
-        <item itemvalue="Gradle.IbankTest.shouldReturnRegistrationUser" />
+        <item itemvalue="Gradle.IbankTest.shouldGetReturnRegistrationUser" />
+        <item itemvalue="Gradle.IbankTest.shouldReturnInvalidPassword" />
+        <item itemvalue="Gradle.IbankTest.shouldReturnInvalidLogin" />
+        <item itemvalue="Gradle.IbankTest" />
+        <item itemvalue="Gradle.IbankTest.shouldReturnBlockedUser" />
       </list>
     </recent_temporary>
   </component>
